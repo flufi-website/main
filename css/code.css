@@ -1,0 +1,82 @@
+
+.code-content {
+    padding: 10px;
+    padding-left: 12.5px;
+
+    > div > span {
+        white-space: pre;
+        color: #f700ff;
+        font-family: 'jetbrains mono';
+    }
+
+    .code_token_word {
+        color: #fff;
+    }
+    .code_token_keyword {
+        color: #FB6C48;
+    }
+    .code_token_constant {
+        color: #DF4559;
+    }
+    .code_token_operator {
+        color: #E37F27;
+    }
+    .code_token_variable {
+        color: #9CC5E3;
+    }
+    .code_token_type {
+        color: #68D087;
+    }
+    .code_token_function {
+        color: #559CD7;
+    }
+    .code_token_punctuation {
+        color: #CECECE;
+    }
+    .code_token_bracket {
+        color: #ffe629;
+    }
+    .code_token_string {
+        color: #56CA86;
+    }
+    .code_token_comment {
+        color: #9555B3;
+        font-style: italic;
+    }
+    .code_token_decorator {
+        color: #96FFF3;
+    }
+    .code_token_property_holder {
+        color: #B5D5FF;
+    }
+    .code_token_escape {
+        color: #FB6C48;
+        font-style: italic;
+    }
+    .code_token_subst {
+        color: #9CC5E3;
+    }
+    .code_token_regexp {
+        color: #56CA86;
+    }
+    .code_token_symbol {
+        color: #DF4559;
+    }
+    .code_token_property {
+        color: #B5D5FF;
+    }
+    .code_token_meta {
+        color: #CECECE;
+        font-style: italic;
+    }
+    .code_token_title {
+        color: #559CD7;
+        font-weight: bold;
+    }
+    .code_token_tag {
+        color: #FB6C48;
+    }
+    .code_token_attribute {
+        color: #68D087;
+    }
+}
