@@ -250,7 +250,7 @@ body {
             }
             a.second {
                 border-radius: 0;
-                right: 35.5px;
+                right: 36px;
             }
             > a:hover {
                 background-color: var(--prim);
