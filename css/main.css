@@ -244,6 +244,13 @@ body {
                 > img {
                     height: 18px;
                 }
+                > svg {
+                    color: var(--text);
+                }
+            }
+            a.second {
+                border-radius: 0;
+                right: 35.5px;
             }
             > a:hover {
                 background-color: var(--prim);
