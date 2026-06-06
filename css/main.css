@@ -252,6 +252,10 @@ body {
                 border-radius: 0;
                 right: 36px;
             }
+            a.third {
+                border-radius: 0;
+                right: 72px;
+            }
             > a:hover {
                 background-color: var(--prim);
             }
@@ -289,7 +293,7 @@ body {
             > a {
                 text-decoration: none;
             }
-            > img {
+            img {
                 margin: 5px;
                 height: 25px;
                 border-radius: 5px;

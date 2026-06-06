@@ -3,6 +3,10 @@
     padding: 10px;
     padding-left: 12.5px;
 
+    > div {
+        min-height: 21px;
+    }
+
     > div > span {
         white-space: pre;
         color: #f700ff;

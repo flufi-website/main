@@ -2,11 +2,14 @@
 import type { Token } from "./highlighter";
 import type { Highlighter } from "./highlighters/base";
 import { FslHighlighter } from "./highlighters/fsl";
+import { SurveHighlighter } from "./highlighters/surve";
 import type { TokenType } from "./token";
 
 export function getHighlighter(lang: string): Highlighter | undefined {
     if (lang == "fsl")
         return new FslHighlighter();
+    if (lang == "surve")
+        return new SurveHighlighter();
 
     return undefined;
 }
