@@ -292,6 +292,8 @@ body {
 
             > a {
                 text-decoration: none;
+
+                display: flex;
             }
             img {
                 margin: 5px;
